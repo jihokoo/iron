@@ -19,7 +19,6 @@ name = "iron"
 path = "src/lib.rs"
 
 [dependencies]
-hyper = "*"
 typemap = "*"
 url = "*"
 plugin = "*"
@@ -27,3 +26,5 @@ modifier = "*"
 error = "*"
 log = "*"
 
+[dependencies.hyper]
+git = "https://github.com/jihokoo/hyper.git"
